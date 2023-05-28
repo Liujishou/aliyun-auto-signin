@@ -14,7 +14,8 @@ jobs:
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
-          # 推送方式是'telegram'
+          # 目前推送方式是'telegram'，自行可以修改为'pushplus'
           PUSH_TYPES: 'telegram'
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
